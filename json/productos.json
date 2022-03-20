@@ -1,0 +1,100 @@
+[{
+        "id": 1,
+        "nombre": "Burger Clasica",
+        "precio": 990,
+        "img": "assets/burger.jpg",
+        "descripcion": "180gr Ternera, Lechuga, Tomate, Queso Cheddar",
+        "cantidad" : 1,
+        "categoria": "Hamburguesas"
+    },
+    {
+        "id": 2,
+        "nombre": "Burger Cheddar",
+        "precio": 990,
+        "img":  "assets/burger.jpg",
+        "descripcion":  "180gr Ternera, Queso Cheddar",
+        "cantidad" : 1,
+        "categoria": "Hamburguesas"
+    },
+    {
+        "id": 3,
+        "nombre": "Burger Bacon",
+        "precio": 1100,
+        "img":  "assets/burger.jpg",
+        "descripcion":  "180gr Ternera, Bacon, Queso Cheddar",
+        "cantidad" : 1,
+        "categoria": "Hamburguesas"
+    },
+    {
+        "id": 4,
+        "nombre": "Burger Queso Azul y Hongos",
+        "precio": 1100,
+        "img":  "assets/burger.jpg",
+        "descripcion":"180gr Ternera, Queso Azul, Hongos Portobello",
+        "cantidad" : 1,
+        "categoria": "Hamburguesas"
+    },
+    {
+        "id": 5,
+        "nombre": "Pizza Muzzarella",
+        "precio": 900,
+        "img":  "assets/pizza.jpg",
+        "descripcion": "Salsa Tomate, Queso Muzzarrella",
+         "cantidad" : 1,
+        "categoria": "Pizzas"
+    },
+    {
+        "id": 6,
+        "nombre": "Pizza Margarita",
+        "precio": 1100,
+        "img": "assets/pizza.jpg",
+        "descripcion":"Salsa Tomate, Queso Muzzarrella, Tomate, Albahaca, Aceitunas",
+         "cantidad" : 1,
+        "categoria": "Pizzas"
+    },
+    {
+        "id": 7,
+        "nombre": "Pizza Jamón y Queso",
+        "precio": 900,
+        "img": "assets/pizza.jpg",       
+        "descripcion":"Salsa Tomate, Queso Muzzarrella, Jamón Cocido",
+         "cantidad" : 1,
+        "categoria": "Pizzas"
+    },
+    {
+        "id": 8,
+        "nombre": "Pizza Peperonni",
+        "precio": 1100,
+        "img":  "assets/pizza.jpg",    
+        "descripcion": "Salsa Tomate, Queso Muzzarrella, Peperonni",
+         "cantidad" : 1,
+        "categoria":  "Pizzas"
+    },
+    {
+        "id": 9,
+        "nombre": "Agua",
+        "precio": 180,
+        "img": "assets/agua.jpg",
+        "descripcion": "500cc",
+         "cantidad" : 1,
+        "categoria": "Bebidas"
+    },
+    {
+        "id": 10,
+        "nombre": "Gaseosa",
+        "precio": 220,
+        "img": "assets/gaseosa.webp",
+         "cantidad" : 1,
+        "descripcion": "300cc",
+        "categoria": "Bebidas"
+    },
+    {
+        "id": 11,
+        "nombre": "Cerveza",
+        "precio": 290,
+        "img": "assets/cerveza.webp",
+         "cantidad" : 1,
+        "descripcion": "300cc",
+        "categoria": "Bebidas"
+    }
+]

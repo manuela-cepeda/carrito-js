@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body class=" flex items-center justify-center " style="background: #edf2f7;">
+    <div class="container mx-auto  bg-white  min-h-screen ">
+        <!-- header -->
+        <div class="flex w-full flex-row justify-between items-center h-32 px-5" 
+        style="background-image: url(assets/background.jpg); 
+        background-position: 100% 20%; 
+        background-size: cover;">
+            <div class="text-gray-800 px-10">
+                <div class="font-bold text-xl text-yellow-500"><i class="fa-solid fa-burger"></i> La Parada  </div>
+                <span class="text-xs">Pizzas & Burguers</span>
+            </div>
+            <div class="flex items-center">
+                <div class=" bg-white rounded  ">
+                    <i class="fa-solid fa-magnifying-glass px-3"></i>
+                    <input class="px-4 py-2 mr-4 text-gray-800  font-semibold focus:outline-none " placeholder="Buscar producto" id="buscar">
+                </input>
+                </div>
+              
+            </div>
+        </div>
+        <!-- end header -->
+        <div class="flex lg:flex-row flex-col-reverse shadow-lg">
+            <!-- left section -->
+            <div class="w-full lg:w-4/5 shadow-lg">
+                <!-- categories -->
+                <div class="mt-5 flex flex-row px-5" id="filtros">
+                    <span id="Todo" class="px-5 py-1 bg-yellow-500 rounded-2xl font-semibold text-sm mr-4 cursor-pointer">
+                        Todo
+                    </span>
+                    <span id="Pizzas" class="px-5 py-1 rounded-2xl text-sm font-semibold mr-4 cursor-pointer">
+                        Pizzas
+                    </span>
+                    <span id="Hamburguesas" class="px-5 py-1 rounded-2xl text-sm font-semibold mr-4 cursor-pointer">
+                        Hamburguesas
+                    </span>
+                    <span id="Bebidas" class="px-5 py-1 rounded-2xl text-sm font-semibold mr-4 cursor-pointer">
+                        Bebidas
+                    </span>
+                </div>
+                <!-- end categories -->
+                <!-- products -->
+                <div class="grid grid-cols-3 gap-4 px-5 my-5 " id="lista-productos">
+
+                   
+                </div>
+                <!-- end products -->
+              
+          
+        </div>
+        <!-- end left section -->
+
+        <!-- right section -->
+        <div class="w-full lg:w-2/5 mb-5">
+            <!-- header -->
+            <div class="flex flex-row items-center justify-between px-5 mt-5">
+                <div class="font-bold text-xl"><i class="fas fa-shopping-cart"></i> Tu Carrito</div>
+                <div class="font-semibold">
+                    <span id="borrar" class="px-4 py-2 rounded-md bg-red-100 text-red-500 cursor-pointer">Borrar todo</span>
+                  
+                </div>
+            </div>
+            <!-- end header -->
+            <!-- order list -->
+            <div id='compra' class="px-5 py-4 mt-5 overflow-y-auto h-52">
+                Tu carrito está vacio 
+             
+            </div>
+            <!-- end order list -->
+            <!-- totalItems -->
+            <div class="px-5 mt-5">
+                <div class="py-4 rounded-md shadow-lg">
+                    <div class=" px-4 flex justify-between ">
+                        <span class="font-semibold text-sm">Subtotal</span>
+                        <span  id="subtotal" class="font-bold"></span>
+                    </div>
+                  
+                    <div class=" px-4 flex justify-between ">
+                        <span class="font-semibold text-sm">Envio a Domicilio</span>
+                        <span id="envio" class="font-bold"> </span>
+                    </div>
+                    <div  class="border-t-2 mt-3 py-2 px-4 flex items-center justify-between">
+                        <span class="font-semibold text-2xl">Total</span>
+                        <span id="total" class="font-bold text-2xl"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- end total -->
+         
+            <!-- button pay-->
+            <div class="px-5 mt-5">
+                <div class="cursor-pointer px-4 py-4 rounded-md shadow-lg text-center bg-yellow-500 text-white font-semibold" id="pagar">
+                   Pagar
+                </div>
+            </div>
+            <!-- end button pay -->
+        </div>
+        <!-- end right section -->
+    </div>
+    
+    
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="js/globales.js"> </script>
+    <script src="js/funciones.js"> </script>
+    <script src="js/producto.js"> </script>
+    <script src="js/main.js"> </script>
+
+</body>
+
+</html>
